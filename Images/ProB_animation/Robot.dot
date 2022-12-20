@@ -1,0 +1,140 @@
+digraph state {
+ graph [fontsize=12]
+rankdir=TB;
+"7" -> "5" [label = "maze_empty_square", color = "firebrick"];
+"7" -> "3" [label = "maze_empty_square", color = "firebrick"];
+"7" -> "2" [label = "maze_empty_square", color = "firebrick"];
+"7" -> "1" [label = "maze_empty_square", color = "firebrick"];
+"6" -> "5" [label = "maze_empty_square", color = "firebrick"];
+"6" -> "3" [label = "maze_empty_square", color = "firebrick"];
+"5" -> "5" [label = "maze_empty_square", color = "firebrick"];
+"5" -> "4" [label = "maze_empty_square", color = "firebrick"];
+"5" -> "3" [label = "maze_empty_square", color = "firebrick"];
+"5" -> "2" [label = "maze_empty_square", color = "firebrick"];
+"5" -> "1" [label = "maze_empty_square", color = "firebrick"];
+"4" -> "5" [label = "maze_empty_square", color = "firebrick"];
+"4" -> "1" [label = "maze_empty_square", color = "firebrick"];
+"3" -> "5" [label = "maze_empty_square", color = "firebrick"];
+"3" -> "4" [label = "maze_empty_square", color = "firebrick"];
+"3" -> "2" [label = "maze_empty_square", color = "firebrick"];
+"3" -> "1" [label = "maze_empty_square", color = "firebrick"];
+"2" -> "4" [label = "maze_empty_square", color = "firebrick"];
+"2" -> "2" [label = "maze_empty_square", color = "firebrick"];
+"1" -> "5" [label = "maze_empty_square", color = "firebrick"];
+"1" -> "4" [label = "maze_empty_square", color = "firebrick"];
+"1" -> "2" [label = "maze_empty_square", color = "firebrick"];
+"1" -> "1" [label = "maze_empty_square", color = "firebrick"];
+"1" -> "5" [label = "maze_exit_square", color = "sienna"];
+"1" -> "1" [label = "maze_initial_square", color = "SlateBlue4"];
+"7" -> "4" [label = "internal_walls", color = "black"];
+"6" -> "4" [label = "internal_walls", color = "black"];
+"6" -> "2" [label = "internal_walls", color = "black"];
+"6" -> "1" [label = "internal_walls", color = "black"];
+"4" -> "4" [label = "internal_walls", color = "black"];
+"4" -> "3" [label = "internal_walls", color = "black"];
+"4" -> "2" [label = "internal_walls", color = "black"];
+"3" -> "3" [label = "internal_walls", color = "black"];
+"2" -> "5" [label = "internal_walls", color = "black"];
+"2" -> "3" [label = "internal_walls", color = "black"];
+"2" -> "1" [label = "internal_walls", color = "black"];
+"1" -> "3" [label = "internal_walls", color = "black"];
+"7" -> "5" [label = "maze", color = "#efdf84"];
+"7" -> "4" [label = "maze", color = "#efdf84"];
+"7" -> "3" [label = "maze", color = "#efdf84"];
+"7" -> "2" [label = "maze", color = "#efdf84"];
+"7" -> "1" [label = "maze", color = "#efdf84"];
+"6" -> "5" [label = "maze", color = "#efdf84"];
+"6" -> "4" [label = "maze", color = "#efdf84"];
+"6" -> "3" [label = "maze", color = "#efdf84"];
+"6" -> "2" [label = "maze", color = "#efdf84"];
+"6" -> "1" [label = "maze", color = "#efdf84"];
+"5" -> "5" [label = "maze", color = "#efdf84"];
+"5" -> "4" [label = "maze", color = "#efdf84"];
+"5" -> "3" [label = "maze", color = "#efdf84"];
+"5" -> "2" [label = "maze", color = "#efdf84"];
+"5" -> "1" [label = "maze", color = "#efdf84"];
+"4" -> "5" [label = "maze", color = "#efdf84"];
+"4" -> "4" [label = "maze", color = "#efdf84"];
+"4" -> "3" [label = "maze", color = "#efdf84"];
+"4" -> "2" [label = "maze", color = "#efdf84"];
+"4" -> "1" [label = "maze", color = "#efdf84"];
+"3" -> "5" [label = "maze", color = "#efdf84"];
+"3" -> "4" [label = "maze", color = "#efdf84"];
+"3" -> "3" [label = "maze", color = "#efdf84"];
+"3" -> "2" [label = "maze", color = "#efdf84"];
+"3" -> "1" [label = "maze", color = "#efdf84"];
+"2" -> "5" [label = "maze", color = "#efdf84"];
+"2" -> "4" [label = "maze", color = "#efdf84"];
+"2" -> "3" [label = "maze", color = "#efdf84"];
+"2" -> "2" [label = "maze", color = "#efdf84"];
+"2" -> "1" [label = "maze", color = "#efdf84"];
+"1" -> "5" [label = "maze", color = "#efdf84"];
+"1" -> "4" [label = "maze", color = "#efdf84"];
+"1" -> "3" [label = "maze", color = "#efdf84"];
+"1" -> "2" [label = "maze", color = "#efdf84"];
+"1" -> "1" [label = "maze", color = "#efdf84"];
+"5" -> "ROOT-NODE" [label = "maze_y_range", color = "#bdef6b"];
+"4" -> "ROOT-NODE" [label = "maze_y_range", color = "#bdef6b"];
+"3" -> "ROOT-NODE" [label = "maze_y_range", color = "#bdef6b"];
+"2" -> "ROOT-NODE" [label = "maze_y_range", color = "#bdef6b"];
+"1" -> "ROOT-NODE" [label = "maze_y_range", color = "#bdef6b"];
+"7" -> "ROOT-NODE" [label = "maze_x_range", color = "#5863ee"];
+"6" -> "ROOT-NODE" [label = "maze_x_range", color = "#5863ee"];
+"5" -> "ROOT-NODE" [label = "maze_x_range", color = "#5863ee"];
+"4" -> "ROOT-NODE" [label = "maze_x_range", color = "#5863ee"];
+"3" -> "ROOT-NODE" [label = "maze_x_range", color = "#5863ee"];
+"2" -> "ROOT-NODE" [label = "maze_x_range", color = "#5863ee"];
+"1" -> "ROOT-NODE" [label = "maze_x_range", color = "#5863ee"];
+"1" -> "4" [label = "visitedMazeSquares(14)", color = "LightSteelBlue1"];
+"2" -> "4" [label = "visitedMazeSquares(13)", color = "gray"];
+"3" -> "4" [label = "visitedMazeSquares(12)", color = "#efdf84"];
+"3" -> "5" [label = "visitedMazeSquares(11)", color = "#bdef6b"];
+"4" -> "5" [label = "visitedMazeSquares(10)", color = "#5863ee"];
+"5" -> "5" [label = "visitedMazeSquares(9)", color = "LightSteelBlue1"];
+"5" -> "4" [label = "visitedMazeSquares(8)", color = "gray"];
+"5" -> "3" [label = "visitedMazeSquares(7)", color = "#efdf84"];
+"5" -> "2" [label = "visitedMazeSquares(6)", color = "#bdef6b"];
+"5" -> "1" [label = "visitedMazeSquares(5)", color = "#5863ee"];
+"2" -> "2" [label = "visitedMazeSquares(4)", color = "LightSteelBlue1"];
+"1" -> "2" [label = "visitedMazeSquares(3)", color = "gray"];
+"1" -> "1" [label = "visitedMazeSquares(2)", color = "#efdf84"];
+"1" -> "1" [label = "visitedMazeSquares(1)", color = "#bdef6b"];
+"5" -> "ROOT-NODE" [label = "robotYPos", color = "#5863ee"];
+"1" -> "ROOT-NODE" [label = "robotXPos", color = "LightSteelBlue1"];
+"13" -> "Moved_North" [label = "movementHistory", color = "gray"];
+"12" -> "Moved_West" [label = "movementHistory", color = "gray"];
+"11" -> "Moved_West" [label = "movementHistory", color = "gray"];
+"10" -> "Moved_South" [label = "movementHistory", color = "gray"];
+"9" -> "Moved_West" [label = "movementHistory", color = "gray"];
+"8" -> "Moved_West" [label = "movementHistory", color = "gray"];
+"7" -> "Moved_North" [label = "movementHistory", color = "gray"];
+"6" -> "Moved_North" [label = "movementHistory", color = "gray"];
+"5" -> "Moved_North" [label = "movementHistory", color = "gray"];
+"4" -> "Moved_North" [label = "movementHistory", color = "gray"];
+"3" -> "Teleport" [label = "movementHistory", color = "gray"];
+"2" -> "Moved_East" [label = "movementHistory", color = "gray"];
+"1" -> "Moved_North" [label = "movementHistory", color = "gray"];
+"7" [color = "wheat3", style = "filled, solid", shape = "box"]
+"5" [color = "wheat3", style = "filled, solid", shape = "box"]
+"3" [color = "wheat3", style = "filled, solid", shape = "box"]
+"2" [color = "wheat3", style = "filled, solid", shape = "box"]
+"1" [color = "wheat3", style = "filled, solid", shape = "box"]
+"6" [color = "wheat3", style = "filled, solid", shape = "box"]
+"4" [color = "wheat3", style = "filled, solid", shape = "box"]
+"ROOT-NODE" [color = "lightblue", style = "filled, solid", shape = "diamond"]
+"13" [color = "wheat3", style = "filled, solid", shape = "box"]
+"Moved_North" [color = "#efdf84", style = "filled, solid", shape = "box"]
+"12" [color = "wheat3", style = "filled, solid", shape = "box"]
+"Moved_West" [color = "#efdf84", style = "filled, solid", shape = "box"]
+"11" [color = "wheat3", style = "filled, solid", shape = "box"]
+"10" [color = "wheat3", style = "filled, solid", shape = "box"]
+"Moved_South" [color = "#efdf84", style = "filled, solid", shape = "box"]
+"9" [color = "wheat3", style = "filled, solid", shape = "box"]
+"8" [color = "wheat3", style = "filled, solid", shape = "box"]
+"Teleport" [color = "#efdf84", style = "filled, solid", shape = "box"]
+"Moved_East" [color = "#efdf84", style = "filled, solid", shape = "box"]
+subgraph "cluster_REPORT" {node [style=filled,color=white]; label="REPORT"; style=filled;color=lightgrey; }
+subgraph "cluster_TELEPORT_MESSAGE" {node [style=filled,color=white]; label="TELEPORT_MESSAGE"; style=filled;color=lightgrey; }
+subgraph "cluster_BOOLEAN" {node [style=filled,color=white]; label="BOOLEAN"; style=filled;color=lightgrey; }
+subgraph "cluster_MOVEMENT_DIRECTION" {node [style=filled,color=white]; label="MOVEMENT_DIRECTION"; style=filled;color=lightgrey; Moved_North; Moved_South; Moved_East; Moved_West; Teleport; }
+}
