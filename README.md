@@ -14,3 +14,6 @@ Notes
 - The robot starts off in the entrance square, i.e. the bottom left square (1, 1). 
 - The robot can be moved around the maze by using one of four directions: North ↑, South ↓, East → and West ←; or it can "teleport" to one of the maze's "path" squares. 
 - Once the robot has found the exit square it can not make any further moves.
+
+## Structure Diagram
+<img src = "https://github.com/mr-desilva/Robot-Maze-Coursework-2022/blob/main/Documentation/Structure Diagram.jpeg">
