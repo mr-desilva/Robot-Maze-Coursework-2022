@@ -43,12 +43,10 @@ PROPERTIES
     maze initial square should be a element of maze empty square
     */
     maze_initial_square : maze_empty_square &
-    maze_initial_square : maze &
-    maze_initial_square = (1 |-> 1) &
+    maze_initial_square = 1 |-> 1 &
        
     maze_exit_square : maze_empty_square &
-    maze_exit_square : maze &
-    maze_exit_square = (1 |-> 5)
+    maze_exit_square = 1 |-> 5
    
     
 END
