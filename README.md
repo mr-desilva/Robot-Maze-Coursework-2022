@@ -16,4 +16,4 @@ Notes
 - Once the robot has found the exit square it can not make any further moves.
 
 ## Structure Diagram
-<img src = "https://github.com/mr-desilva/Robot-Maze-Coursework-2022/blob/main/Documentation/Structure Diagram.jpeg">
+<img src = "https://github.com/mr-desilva/Robot-Maze-Coursework-2022/blob/main/Structure Diagram/Structure Diagram.jpeg">
