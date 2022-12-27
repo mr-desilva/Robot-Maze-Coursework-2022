@@ -239,6 +239,12 @@ OPERATIONS
               robotRoute := visitedMazeSquares
        END;
        
+       // Get robot movement history details
+       robotRouteMovements <-- getRobotMovements =
+       BEGIN
+              robotRouteMovements := movementHistory
+       END;
+       
        // reset the robot position and other history
        resetSystem =
        PRE
